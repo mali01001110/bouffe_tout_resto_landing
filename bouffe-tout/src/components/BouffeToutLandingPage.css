@@ -303,11 +303,10 @@ input:focus-visible {
   position: relative;
   width: 100%;
   aspect-ratio: 1.48;
-  overflow: hidden;
-  border-radius: 14px;
-  background: #151515;
-}
-.hero-visual img {
+  overflow: visible;
+  border-radius: 0;
+  background: transparent;
+}.hero-visual img {
   width: 100%;
   height: 100%;
   display: block;
@@ -341,6 +340,19 @@ input:focus-visible {
   font-size: 8px;
   font-weight: 800;
   line-height: 1.1;
+}
+.quality-badge--large {
+  width: 140px;
+  height: 140px;
+  top: 30px;
+  right: 30px;
+}
+.quality-badge--large strong {
+  font-size: 28px;
+}
+.quality-badge--large span {
+  max-width: 110px;
+  font-size: 11px;
 }
 
 .service-benefits {

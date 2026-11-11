@@ -450,8 +450,7 @@ export default function BouffeToutLandingPage() {
               </div>
             </div>
             <div className="hero-visual">
-              <img src={ASSETS.hero} alt="Burger, frites et cola dans une mise en scène gourmande" />
-              <div className="quality-badge">
+              <div className="quality-badge quality-badge--large">
                 <strong>100 %</strong>
                 <span>FRAIS &amp; SAVOUREUX</span>
               </div>
